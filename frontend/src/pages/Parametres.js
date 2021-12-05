@@ -8,8 +8,6 @@ class Parametres extends Component {
 
     setNasa = () => {
         let date = document.getElementById("nasa_input").value;
-        alert(date);
-
         this.props.updateNasa({
             day: "" + date[8]+date[9],
             month: "" + date[5]+date[6],

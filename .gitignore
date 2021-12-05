@@ -2,3 +2,4 @@
 *.json.gz
 *.DS_Store
 node_modules
+frontend/yarn.lock

@@ -33,9 +33,9 @@ class Meteo extends Component {
         .then((data) =>{
             let stats = [{name: 'Today', average: 0, max: 0, min: 0},
                 {name: 'Tomorrow', average: 0, max: 0, min: 0},
-                {name: 'Friday', average: 0, max: 0, min: 0},
-                {name: 'Saturday', average: 0, max: 0, min: 0},
-                {name: 'Sunday', average: 0, max: 0, min: 0}]
+                {name: 'Wednesday', average: 0, max: 0, min: 0},
+                {name: 'Thursday', average: 0, max: 0, min: 0},
+                {name: 'Friday', average: 0, max: 0, min: 0}]
             for (let i = 0; i<5; i ++){
                 stats[i].average = data.list[i].temp.day;
                 stats[i].min = data.list[i].temp.min;

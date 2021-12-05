@@ -17,3 +17,13 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
 module.exports = app;
+
+const mongoose = require('mongoose');
+
+mongoose.Promise = global.Promise;
+const dbName = "web_projectDB";
+const dbUrl = `mongodb://localhost:27017/${dbName}`;
+
+mongoose.connect(dbUrl, {
+    useNewUrlParser: true
+});

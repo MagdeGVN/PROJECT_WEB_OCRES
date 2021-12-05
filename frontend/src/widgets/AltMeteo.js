@@ -6,7 +6,6 @@ const API_KEY = "b59fd36e1b27dbeb2246876f9a15bac5";
 // Url API
 const API_URL = "https://api.openweathermap.org/data/2.5/";
 
-
 class AltMeteo extends Component {
     constructor(props){
         super(props);
@@ -103,5 +102,8 @@ class AltMeteo extends Component {
         
     }
 }
+
+
+
 
 export default AltMeteo;

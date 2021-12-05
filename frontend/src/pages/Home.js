@@ -6,6 +6,7 @@ import Suggestion from '../widgets/Suggestion.js';
 import Makeup from "../widgets/Makeup.js";
 import Nasa from "../widgets/Nasa.js";
 import Rates from "../widgets/Rates.js";
+import Film from '../widgets/Films.js';
 
 
 class Home extends Component {
@@ -37,7 +38,7 @@ class Home extends Component {
         <div className="grid-suggestions">
           <Suggestion/>
         </div>
-        <div className="grid-films">Films</div>
+        <div className="grid-films"><Film/></div>
         <div className="grid-shopping">
           <Makeup parameters = {this.state.makeup_parameters}/>
         </div>

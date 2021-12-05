@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Routs from './Routs.js';
@@ -16,13 +17,13 @@ class App extends Component {
     return (
       <div>
         <div className="navbar navbar-expand-sm navbar-light navbar">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
           <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt=""/>
-          </a>
+          </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link btn btn-ghost"href="/settings">Settings </a>
+                <Link className="nav-link btn btn-ghost" to="/settings">Settings </Link>
               </li>
             </ul>
           </div>

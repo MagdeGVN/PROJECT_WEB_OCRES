@@ -47,7 +47,7 @@ class Nasa extends Component {
                     <h4 className="widget-title">NASA Picture of the day</h4>
                     <p>Title: {this.state.title}</p>
                     <p>date: {date}</p>
-                    <img src= {this.state.image} width="60%" height="60%" className="picture" alt = "" />
+                    <img src= {this.state.image} width="45%" height="45%" className="picture" alt = "" />
                 </div>
             );
         }

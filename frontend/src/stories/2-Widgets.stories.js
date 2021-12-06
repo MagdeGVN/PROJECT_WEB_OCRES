@@ -22,5 +22,3 @@ export const makeup = () => <Makeup/>;
 export const nasa = () => <Nasa/>;
 
 export const rates = () => <Rates/>;
-
-export const home = () => <Home/>;
